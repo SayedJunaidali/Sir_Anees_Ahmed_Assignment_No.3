@@ -1,0 +1,61 @@
+Sir Anees Ahmed Assignment No:3
+Class 9:00 to  12:00
+1. Input the name of filename and parse the file then create a function to count Total Number of Characters, Words, Spaces,
+NonSpaceCharater, Tabs, Lines, Paragraphs in the text file.
+CODE:
+Github Link
+OUTPUT:
+Enter given example text file.txt4: sample_text_file.txt4 
+The file sample_text_file.txt4  has about 137184 Total Characters.
+The file sample_text_file.txt4  has about 38128 words.
+The file sample_text_file.txt4  has about 54321 spaces.
+The file sample_text_file.txt4  has about 35 tabs.
+The file sample_text_file.txt4  has about 4822 Lines.
+The file sample_text_file.txt4  has about 3 paragraphs.
+The file sample_text_file.txt4  has about 39875 nonspacecharater.
+2.Input the name of html file name and print tags names used in the file and the count of tags.
+CODE:
+Github Link
+OUTPUT:
+Enter given Html example file to parse: example_html_file.html
+<html>
+
+<head>
+<title>this is where the page title would go!</title>
+<style>
+body {
+  background-color: #000000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+h1 {
+  font-size: 2em;
+}
+a:hover {
+  color: #cccccc;
+}
+p {
+  color: blue;
+}
+.redtext {
+  color: red;
+}
+p.redtext {
+  width: 100px;
+}
+</style>
+</head>
+
+<body>
+<h1>a header!</h1>
+<p>this is just a paragraph on the page</p>
+<p class="redtext">this is just another paragraph on the page</p>
+<p>a third paragraph. insanity! <a href="http://google.com">with a link!</a></p>
+</body>
+
+</html>
+
+The file example_html_file.html has about 10 tags.
+
+   
